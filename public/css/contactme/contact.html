@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive_style.css">
+    <link rel="stylesheet" href="/Users/apravasi/github-classroom/CS-Classroom-2023-COMP-3410/project04-portfolio-css-AlishaPravasi/public/css/tailwind.css">
+    <title>Alisha's Pravasi</title>
+</head>
+<body background="/Users/apravasi/github-classroom/CS-Classroom-2023-COMP-3410/project02-portfolio-html-AlishaPravasi/bg.png" alt="Bikini Bottom sky">
+    <!-- Navbar -->
+    <center><nav class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <div class="text-lg font-bold">Alisha Pravasi</div>
+            <div class="hidden md:flex space-x-6">
+                <a href="/Users/apravasi/github-classroom/CS-Classroom-2023-COMP-3410/project04-portfolio-css-AlishaPravasi/public/css/homepage/index.html" class="hover:underline">Home</a>
+                <a href="/Users/apravasi/github-classroom/CS-Classroom-2023-COMP-3410/project04-portfolio-css-AlishaPravasi/public/css/aboutme/aboutme.html" class="hover:underline">About</a>
+                <a href="/Users/apravasi/github-classroom/CS-Classroom-2023-COMP-3410/project04-portfolio-css-AlishaPravasi/public/css/blog/blog.html" class="hover:underline">Blog</a>
+                <a href="/Users/apravasi/github-classroom/CS-Classroom-2023-COMP-3410/project04-portfolio-css-AlishaPravasi/public/css/gallery/gallery.html" class="hover:underline">Gallery</a>
+                <a href="/Users/apravasi/github-classroom/CS-Classroom-2023-COMP-3410/project04-portfolio-css-AlishaPravasi/public/css/contactme/contact.html" class="hover:underline">Contact Me</a>
+            </div>
+        </div>
+    </nav>   </center>
+    <!-- Contact Form -->
+    <center>
+    <font color="DarkSlateGray">
+    <h2>Contact Me</h2>
+    </font>
+    <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+        <table>
+            <tr>
+                <td> <font color="SlateBlue"><label for="name">Name:</label></td></font>
+                <td><input type="text" id="name" name="name" required></td>
+            </tr>
+            <tr>
+                <td><font color="Tomato"><label for="email">Email:</label></td></font>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><font color="Orange"><label for="message">Message:</label></td></font>
+                <td><textarea id="message" name="message" rows="5" cols="30" required></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Send Message">
+                </td>
+            </tr>
+        </table>
+    </form>
+    </center>
+</body>
+</html>
